@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40522149674",
+    "project_id": "shoeapp-26141",
+    "storage_bucket": "shoeapp-26141.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40522149674:android:7b84272ecb0b08b712f853",
+        "android_client_info": {
+          "package_name": "com.example.EliteEchelons"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyiN9D2V_EQYV4deShLUR8q_0ULmM3WEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40522149674:android:c3352263ffbc6d6012f853",
+        "android_client_info": {
+          "package_name": "com.example.sneakerhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyiN9D2V_EQYV4deShLUR8q_0ULmM3WEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

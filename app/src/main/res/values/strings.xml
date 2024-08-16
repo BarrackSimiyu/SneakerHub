@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EliteEchelons</string>
+    <string name="shoe_image_desc">Image of a classic running shoe</string>
+    <string name="cart_icon_desc">Cart icon</string>
+    <string name="notification_icon_desc">Notification icon</string>
+
+    <string-array name="shoe_sizes">
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>33</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>45</item>
+
+
+    </string-array>
+
+
+</resources>

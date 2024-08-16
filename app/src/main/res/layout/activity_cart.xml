@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:background="#8BC34A"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order details"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat1"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Cart"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_cart"
+            android:id="@+id/cartrecycler"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery Location"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:id="@+id/locationimage"
+                android:src="@drawable/location"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_toEndOf="@id/locationimage">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textSize="15sp"
+                    android:clickable="true"
+                    android:id="@+id/location"
+                    android:textStyle="bold"
+                    android:layout_marginTop="13dp"
+                    android:fontFamily="@font/montserrat1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Info"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#7F7F80"
+                android:layout_marginLeft="18dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="17sp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KES 4000"
+                android:textStyle="bold"
+                android:id="@+id/totalcost"
+                android:fontFamily="@font/montserrat1"
+                android:layout_marginLeft="175dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECKOUT"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/checkoutbtn"
+            app:cornerRadius="9dp"
+            android:padding="14dp"
+            android:backgroundTint="#FF5722"/>
+    </LinearLayout>
+
+</ScrollView>

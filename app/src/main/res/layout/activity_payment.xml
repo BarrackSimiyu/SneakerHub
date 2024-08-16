@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".PaymentActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Pay 1,500"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:id="@+id/textpay"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="45dp"
+        android:hint="Your Phone">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:id="@+id/phone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAY NOW"
+        app:cornerRadius="8dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/btnpay"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#0B0B0A"/>
+
+
+
+</LinearLayout>

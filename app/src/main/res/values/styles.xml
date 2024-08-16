@@ -1,0 +1,15 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Splash Screen Theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg2</item>
+        <!-- Optional: Customize splash screen appearance -->
+    </style>
+
+    <style name="ImageViewShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+
+</resources>
